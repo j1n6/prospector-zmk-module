@@ -90,7 +90,7 @@ disp_spi: &spi3 {
    };
 };
 
-&i2c1 {
+&i2c0 {
    status = "okay";
 
    apds9960: apds9960@39 {
